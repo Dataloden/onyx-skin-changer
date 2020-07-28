@@ -45,7 +45,7 @@ try:
         return pid
         #print(f"url is {securl}")'''
     def change_skin():
-        #changes skin to golden peely(default)
+        #changes skin to golden banana(default)
         third_url = f"https://party-service-prod.ol.epicgames.com/party/api/v1/Fortnite/parties/{get_party_id()}/members/{accid}/meta"
         with open("skin.json", "r+") as f:
             objct = json.load(f) 
