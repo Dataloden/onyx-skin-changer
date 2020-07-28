@@ -1,3 +1,5 @@
+#credit to Dataloden for this source code.
+#credit to Velocity for the metadata link
 import requests
 import json
 import os
