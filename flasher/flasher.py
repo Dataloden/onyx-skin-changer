@@ -4,10 +4,11 @@ import requests
 import json
 import os
 import time
-
+#asks for auth code
 token = str(input("please enter authorization code for your account:"))
 #print(f"successfully imputted {token} into variable token")
 try:
+    #converts auth code into bearer token
     url = ' https://account-public-service-prod.ol.epicgames.com/account/api/oauth/token'
     myobj = {'grant_type': 'authorization_code', 'code': token}
     x = requests.post(url, data = myobj, auth=('ec684b8c687f479fadea3cb2ad83f5c6', 'e1f31c211f28413186262d37a13fc84d'))
@@ -20,6 +21,7 @@ try:
     revi = 1
     #print(bond)
     def get_party_id():
+        #gets party id (does that by seperating string characters into an array and picking out certain characters)
         securl = f"https://party-service-prod.ol.epicgames.com/party/api/v1/Fortnite/user/{accid}"
         obj = {}
         auth = {"Authorization": f"Bearer {bond}"}
@@ -43,6 +45,7 @@ try:
         return pid
         #print(f"url is {securl}")'''
     def change_skin():
+        #changes skin to golden peely(default)
         third_url = f"https://party-service-prod.ol.epicgames.com/party/api/v1/Fortnite/parties/{get_party_id()}/members/{accid}/meta"
         with open("skin.json", "r+") as f:
             objct = json.load(f) 
@@ -62,6 +65,7 @@ try:
             print("successfully changed skin")
             
     def goback():
+        #execute commands
         comm = str(input("enter a command:"))
         if comm == "banana":
             change_skin()
