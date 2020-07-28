@@ -1,9 +1,1 @@
-{
-    "update": {
-        "Default:AthenaCosmeticLoadout_j": "{\"AthenaCosmeticLoadout\": {\"characterDef\": \"AthenaCharacterItemDefinition'/Game/Athena/Items/Cosmetics/Characters/CID_701_Athena_Commando_M_BananaAgent.CID_701_Athena_Commando_M_BananaAgent'\", \"characterEKey\": \"\", \"backpackDef\": \"AthenaBackpackItemDefinition'/Game/Athena/Items/Cosmetics/Backpacks/BID_533_MechanicalEngineer.BID_533_MechanicalEngineer'\", \"backpackEKey\": \"\", \"pickaxeDef\": \"AthenaPickaxeItemDefinition'/Game/Athena/Items/Cosmetics/Pickaxes/Pickaxe_ID_411_PartyGoldMale.Pickaxe_ID_411_PartyGoldMale'\", \"pickaxeEKey\": \"\", \"contrailDef\": \"None\", \"contrailEKey\": \"\", \"scratchpad\": [{\"t\": 2, \"v\": 350}], \"variants\": [{\"item\": \"AthenaCharacter\", \"channel\": \"Progressive\", \"variant\": \"Stage4\"}]}}",
-        "Default:AthenaBannerInfo_j": "{\"AthenaBannerInfo\": {\"bannerIconId\": \"otherbanner23\", \"bannerColorId\": \"defaultcolor16\", \"seasonLevel\": 999}}",
-        "Default:CampaignHero_j": "{\"CampaignHero\":{\"heroItemInstanceId\":\"\",\"heroType\":\"/Game/Athena/Heroes/HID_701_Athena_Commando_M_BananaAgent.HID_701_Athena_Commando_M_BananaAgent\"}}",
-        "Default:FrontendEmote_j": "{\"FrontendEmote\":{\"emoteItemDef\":\"/Game/Athena/Items/Cosmetics/Dances/EID_GetFunky.EID_GetFunky\",\"emoteEKey\":\"\",\"emoteSection\":-1}}"
-    },
-    "revision": "27"
-}
+trololoolololloololololololollolollolololo
